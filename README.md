@@ -3,7 +3,7 @@ Test app showing off issues running tests via Android Studio in some configurati
 
 Running AGP 7.4.2, which is setup in the `master` branch, you'll see that `test_sample_class` test passes successfully with no errors reported in console.
 
-Switching to the `agp-8-0-0` branch, which upgrades AGP to 8.0.0, the same `test_sample_class` test passes, but errors related to JaCoCo being printed out:
+Switching to the `latest-agp` branch, which upgrades AGP to 8.1.1, the same `test_sample_class` test passes, but errors related to JaCoCo are printed out:
 
 ```
 > Task :app:testDebugUnitTest
