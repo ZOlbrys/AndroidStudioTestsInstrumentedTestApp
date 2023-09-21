@@ -5,7 +5,7 @@ See https://issuetracker.google.com/issues/281266702
 
 Running AGP 7.4.2, which is setup in the `master` branch, you'll see that `test_sample_class` test passes successfully with no errors reported in console.
 
-Switching to the `latest-agp` branch, which upgrades AGP to 8.1.1, the same `test_sample_class` test passes, but errors related to JaCoCo are printed out:
+Switching to the `latest-agp` branch, which upgrades AGP to the latest AGP version the same `test_sample_class` test passes, but errors related to JaCoCo are printed out:
 
 ```
 > Task :app:testDebugUnitTest
