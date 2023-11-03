@@ -161,3 +161,5 @@ BUILD SUCCESSFUL in 8s
 ```
 
 If I set `enableAndroidTestCoverage` to false and/or remove this config entirely, the tests pass and no errors are reported, but this value is required for jacoco coverage (which I did not setup for this test, since the issue lies in running tests via Android Studio).
+
+Update 11/2/23: It appears that this issue has been fixed in a recent alpha version of AGP 8.3.0!
